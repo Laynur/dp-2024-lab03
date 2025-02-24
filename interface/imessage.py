@@ -5,6 +5,6 @@ class IMessage(ABC):
     """Интерфейс сообщения"""
 
     @abstractmethod
-    def print(self):
+    def Print(self):
         """метод для вывода сообщения"""
         pass
