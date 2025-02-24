@@ -6,5 +6,10 @@ class IMessage(ABC):
 
     @abstractmethod
     def Print(self):
-        """метод для вывода сообщения"""
+        """Метод для вывода сообщения"""
+        pass
+
+    @abstractmethod
+    def get_content(self):
+        """Метод для возврата содержимого сообщения"""
         pass
